@@ -1,4 +1,7 @@
 $(function() {
+
+
+    //Fixid header
 let header = $("#header");
 let intro = $("#intro");
 let introH = intro.innerHeight();
@@ -14,10 +17,15 @@ if (scrollPos > introH) {
     header.removeClass("fixed");
 }
 
-console.log(scrollPos);
 });
 
 
 
-header.addClass("fixed");
+//Smooth Scroll
+$("[data-scroll]").on("click", function(event) {
+event.preventDefault();
+let elementId = $(this).data('scroll');
+
+console.log(elementId);
+});
 });
