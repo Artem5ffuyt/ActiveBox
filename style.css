@@ -123,8 +123,7 @@ margin: 0 0 10px;
 
 .intro__title {
     margin: 0 0 30px 0;   
-    font-family: 'Open Sans',
-    sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 63px;
     line-height: 1.1;
     color: #fff;
@@ -161,7 +160,7 @@ margin: 0 0 10px;
     text-transform: uppercase;
     text-decoration: none;
 
-    transition: background .1s linear;
+    transition: background.1s linear
 
 }
 
@@ -505,4 +504,10 @@ margin: 0 0 10px;
 
 .copiright__text span {
     color: #fff;
+}
+
+
+/* Media */
+@media (max-wids:1200px) {
+    
 }
